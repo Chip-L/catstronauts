@@ -11,6 +11,13 @@
     "dev": "ts-node-dev --respawn ./src/index.ts",
     "start": "npm run compile && nodemon ./dist/index.js"
   },
+  "dependencies": {
+    "@apollo/server": "^4.10.1",
+    "@graphql-tools/mock": "^9.0.2",
+    "@graphql-tools/schema": "^10.0.3",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6"
+  },
   "devDependencies": {
     "dotenv": "^8.6.0",
     "nodemon": "^3.1.0",
